@@ -1,0 +1,38 @@
+.profile__avatar-container {
+  position: relative;
+  display: inline-block;
+}
+
+.profile__image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  transition: opacity 0.3s;
+}
+
+.profile__avatar-container:hover .profile__image {
+  opacity: 0.7; 
+}
+
+.profile__edit-avatar-button {
+  position: absolute;
+  top: 35px;
+  right: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.profile__avatar-container:hover .profile__edit-avatar-button {
+  opacity: 1;
+}
+
+.profile__edit-avatar-button svg {
+  width: 26px;
+  height: 26px;
+  fill: white; /* Цвет иконки */
+}
