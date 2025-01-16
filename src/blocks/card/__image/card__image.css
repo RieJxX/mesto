@@ -2,6 +2,9 @@
   height: 282px;
   object-fit: cover;
   width: 100%;
+  min-height: 282px; 
+  min-width:282px;
+  background-color: lightslategray;
 }
 
 .card__image:hover {
