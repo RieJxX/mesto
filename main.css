@@ -19,7 +19,7 @@
 
 .places{font-family:Inter,Arial,sans-serif;padding:15px 0 36px}@media screen and (max-width:568px){.places{padding:15px 0 18px}}
 .card__description{align-items:center;background:#fff;display:flex;justify-content:space-between;padding:25px 20px}
-.card__image{height:282px;-o-object-fit:cover;object-fit:cover;width:100%}.card__image:hover{cursor:pointer}
+.card__image{background-color:#789;height:282px;min-height:282px;min-width:282px;-o-object-fit:cover;object-fit:cover;width:100%}.card__image:hover{cursor:pointer}
 .card__like-button{background:transparent url(assets/like-inactive.svg) no-repeat;background-size:21px 18px;border:none;cursor:pointer;height:18px;margin:0;padding:0;transition:.3s;width:21px}.card__like-button:hover{opacity:.6}
 .card__like-button_is-active{background:transparent url(assets/like-active.svg) no-repeat}
 .card__delete-button{background:transparent url(assets/delete-icon.svg) 50% no-repeat;background-size:18px 18px;border:none;cursor:pointer;height:18px;margin:0;padding:0;position:absolute;right:15px;top:18px;transition:.3s;width:18px}.card__delete-button:hover{opacity:.6}
